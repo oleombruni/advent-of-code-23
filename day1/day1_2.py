@@ -18,16 +18,16 @@ if __name__ == "__main__":
     with open("input.txt", "r") as f:
         lines = f.readlines()
         for s in lines:
-            s = s.strip()
-            s = s.replace("one", "o1ne")
-            s = s.replace("two", "t2wo")
-            s = s.replace("three", "thr3ee")
-            s = s.replace("four", "fo4ur")
-            s = s.replace("five", "fi5ve")
-            s = s.replace("six", "s6ix")
-            s = s.replace("seven", "sev7en")
-            s = s.replace("eight", "eig8ht")
-            s = s.replace("nine", "ni9ne")
+            s = s.strip()                       \
+                    .replace("one", "o1ne")     \
+                    .replace("two", "t2wo")     \
+                    .replace("three", "thr3ee") \
+                    .replace("four", "fo4ur")   \
+                    .replace("five", "fi5ve")   \
+                    .replace("six", "s6ix")     \
+                    .replace("seven", "sev7en") \
+                    .replace("eight", "eig8ht") \
+                    .replace("nine", "ni9ne")   
 
             first = forwards(s)
             second = backwards(s)
