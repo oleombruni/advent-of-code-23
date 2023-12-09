@@ -1,0 +1,6 @@
+{
+    "ocaml.sandbox": {
+        "kind": "custom",
+        "template": "wsl ocamlrun $prog $args"
+    }
+}

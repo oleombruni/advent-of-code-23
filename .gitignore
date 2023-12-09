@@ -1,5 +1,5 @@
 .idea/
 cmake-build-debug/
 out/
-/*/input.txt
-/*/test.txt
+**/input.txt
+**/test.txt
