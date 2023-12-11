@@ -10,4 +10,5 @@ Day |  Language         | Gold Stars
 3   | C                 | ⭐⭐
 4   | Java              | ⭐⭐
 5   | Python AND OCaml  | ⭐⭐
+6   | F# (.NET 8.0)     | ⭐⭐
 
